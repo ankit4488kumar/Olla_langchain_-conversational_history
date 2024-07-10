@@ -11,7 +11,7 @@ prompt_template = ChatPromptTemplate.from_messages(
     [
         (
             "system",
-            "You are an AI named Mike, you answer questions with simple answers and no funny stuff.",
+            "You are an AI named Akki, you answer questions with simple answers and no funny stuff.",
         ),
         MessagesPlaceholder(variable_name="chat_history"),
         ("human", "{input}"),
